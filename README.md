@@ -1,3 +1,5 @@
 # Learning-Python
 Learning complete python topics only 
-Author pawan pokharel
+days 1 to 240 
+learning complete python 
+Author  " Pawan Pokharel "
