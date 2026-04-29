@@ -1,2 +1,6 @@
 print("hello world")
 print ("Hello 28 april i start the python learning")
+print("my name is pawan pokharel")
+print("my name is pawan pokharel")
+print("my name is pawan pokharel")
+print("my name is pawan pokharel")
