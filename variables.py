@@ -1,1 +1,10 @@
-print("my name is pawan pokharel")
+
+name = "Pawan Pokharel"
+age = 23
+price = 334.45
+
+print ("name")
+print(age)
+
+print ("my name is : ", name)
+print ("MY age is:", age)
