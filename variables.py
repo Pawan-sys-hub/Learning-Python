@@ -8,3 +8,8 @@ print(age)
 
 print ("my name is : ", name)
 print ("MY age is:", age)
+
+
+print (type(name))
+print (type(age))
+print (type(price))
