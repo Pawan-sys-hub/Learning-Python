@@ -26,3 +26,6 @@ print (type(age))
 print (type(price))
 print (type(old))
 print (type(a))
+
+
+print (f"My name is {Name}. I live in {Address}. I am {age} years old.")
