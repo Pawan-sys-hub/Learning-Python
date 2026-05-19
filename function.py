@@ -9,3 +9,8 @@ print(max(rollnumber))
 print(round(1.87,2))
 
 print(round(9.99))
+
+#decending orders
+print(sorted(rollnumber, reverse= True))
+
+print(reversed(rollnumber))
