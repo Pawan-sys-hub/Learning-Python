@@ -14,3 +14,14 @@ print(round(9.99))
 print(sorted(rollnumber, reverse= True))
 
 print(reversed(rollnumber))
+
+#methods
+
+#append,reverse,count,
+
+rollnumber.append(87.77)
+print(rollnumber.reverse())
+rollnumber.count(int)
+print(rollnumber.index(12))
+
+print(rollnumber)
