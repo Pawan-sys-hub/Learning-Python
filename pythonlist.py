@@ -16,3 +16,14 @@ room = [["heignt",hei],
 
 print(room)
 
+
+#subseting the list
+
+roomthings = ["bed",29,"daraz",24,"gas",11,"table",14,"hanger",15,"tv",77]
+
+print(roomthings[:4])
+
+print(roomthings[4:])
+
+print(roomthings[1:9])
+print(roomthings[5:4])
