@@ -26,4 +26,25 @@ print(roomthings[:4])
 print(roomthings[4:])
 
 print(roomthings[1:9])
+
 print(roomthings[5:4])
+
+things = roomthings[:8]
+print(things)
+
+thing = roomthings [8:]
+print(thing)
+
+
+store = [["bed",29],["daraz",24],["gas",11],["table",14],["hanger",15],["tv",77]]
+
+store[4][1]
+
+house = [["hallway", 11.25],
+         ["kitchen", 18.0],
+         ["living room", 20.0],
+         ["bedroom", 10.75],
+         ["bathroom", 9.50]]
+
+
+house[4][1]
