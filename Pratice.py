@@ -30,3 +30,4 @@ A.append("o")
 print(A)
 
 print(A.reverse())
+
