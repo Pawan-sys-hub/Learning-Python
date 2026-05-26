@@ -24,3 +24,5 @@ elif percentage >=70:
 
 else:
   print("Fail go and read")
+
+  
