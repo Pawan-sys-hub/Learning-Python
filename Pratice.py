@@ -1,33 +1,36 @@
-#lets pratice python
+#pratice 
 
-print("Hello i am praticing my python language skill")
-print("----------------------------------------------------------------")
+print("calculator")
 
-#lets do operators
+num1 = int(input("Enter the number first:"))
 
-h = 15
-b = 17
-l = 20
+num2 = int(input("Enter the number first:"))
 
-sum = h+b+l
-print(sum)
+calculate = input("Enter a sytmbol to calculayte +-*/: ")
 
-print("difference:",h-b-l)
-print("Division:",h/b/l , "Multiplication :" , h*b*l)
+if calculate == "+":
+  result = num1 + num2 
+  print ("sum of number is:" ,result)
 
-print(type(sum))
+elif calculate == "-":
+  result = num1 -num2
+  print ("Difference:", result)
 
-print(bool(sum))
+elif calculate == "*":
+  result = num1 * num2
+  print ("multiplication:", result)
 
-#array in python
+elif calculate == "/":
+  result = num1 / num2
+  print ("DiffereDivision:", result)
 
-A = ["a","b","c","d","e"]
-print(A)
+else:
+  print("portugal will win 2026")
 
-print(A.append("p"))
 
-A.append("o")
-print(A)
 
-print(A.reverse())
+sum = num1 + num2
 
+for i in range (1,11):
+ print(f"{sum} * {i} = {sum * i}")
+ 
