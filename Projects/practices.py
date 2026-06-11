@@ -1,1 +1,6 @@
-print("helo i am back for learning python")
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
+
+
