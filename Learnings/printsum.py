@@ -13,3 +13,12 @@ print ("difference:", difference)
 print ("multiply:", multiply)
 print ("dividion:", division)
 print ("sumanddiff:", sumanddiff)
+
+
+f =  int(input())
+g = int(input())
+
+sum = f + g
+print(sum)
+
+print("sum of a and b is", sum)
