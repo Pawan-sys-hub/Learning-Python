@@ -46,9 +46,50 @@ else:
 
   print ("lets doo LOOPS")
 
-for i in range (1 ,11):
-  print (i)
+for ii in range (1 ,11):
+  print (ii)
 
   for pawan in range (1,3):
     print(pawan)
 
+
+
+
+
+credit_card = "1213213123123123 _12312312"
+for x in credit_card:
+  print(x)
+
+
+for yellow in range (1 ,13):
+  if yellow == 7:
+    break
+  else:
+    print(yellow)
+
+
+
+
+print("lets do while loops now")
+
+name = input("Enter your name:")
+while name =="":
+  name = input ("Enter your name:")
+  print("Please Enter your name")
+print(f"Hello, {name}")
+
+
+
+age = int(input("Enter your Age"))
+while age == "":
+  print("please enter your age ")
+  age = int(input("Enter your Age"))
+print(f"Your age is {age}")
+
+
+
+ages = int(input("Enter your valid age "))
+while ages < 0:
+  print("Age cannot be negative")
+  ages = int(input("Enter your valid age "))
+print(f"You are {ages} years old")
