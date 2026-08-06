@@ -93,3 +93,51 @@ while ages < 0:
   print("Age cannot be negative")
   ages = int(input("Enter your valid age "))
 print(f"You are {ages} years old")
+
+
+
+food = input("enter the food you like press( A to quit)")
+while not food == "A":
+  print(f"you like {food} ")
+  food = input("enter the food you like press( A to quit)")
+print("bye")
+
+num = int(input("Enter the number between the 1 to 10"))
+while num == num <1 or num > 10:
+  print(f"your {num} not valid")
+  num = int(input("Enter the number between the 1 to 10"))
+print(f"Valid number is{num}")
+
+
+
+
+print("Its time for function")
+
+def pawan (name , age):
+  print("Hello pawan")
+  print(f"Happy birthday to you {name} and you are {age} your old")
+  print(f"Enjoy your day {name}")
+  print()
+pawan("ram",23)
+pawan("sita",12)
+
+def display_invoice(username , amount, due_date):
+  print(f"hello {username}")
+  print(f"your bill is Rs{amount} and you have to pay on this date {due_date}")
+display_invoice("pawan",5000,"dec 6")
+
+
+
+def add (a ,b):
+  z=(a + b)
+  return z
+
+print(add(12 ,12))
+
+def create_name (first, last):
+  first = first.capitalize()
+  last = last.capitalize()
+  return first + " " + last
+
+fullname = create_name("pawan","pokharel")
+print(fullname)
