@@ -141,3 +141,22 @@ def create_name (first, last):
 
 fullname = create_name("pawan","pokharel")
 print(fullname)
+
+
+ #task two printing  even number 
+even = int(input("Enter the number"))
+if even%2 == 0:
+    print(f" {even}number is even")
+else:
+    print("odd")
+
+
+
+print ("lets do revision")
+
+def id(name ,id, college):
+  print(f"Hi,my name is {name}")
+  print(f"My college id is like this {id}")
+  print(f"My college name is {college}")
+id("Pawan Pokharel","HAS123GH","Kathmandu Model College")
+    

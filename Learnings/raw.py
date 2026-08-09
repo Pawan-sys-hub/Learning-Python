@@ -1,9 +1,13 @@
+print("lets do list now")
 
-  #task two printing  even number 
-even = int(input("Enter the number"))
-if even%2 == 0:
-    print(f" {even}number is even")
-else:
-    print("odd")
+fruits =  ["apple","Banana","oranges","lemons"]
 
-    
+#print(fruits[2])  #it is indexing
+#print(fruits[0:2])
+#print(dir(fruits))
+#print(help(fruits))
+#print(len(fruits))
+#print("pawan" in fruits)
+
+for fruit in fruits:
+  print(fruit)
