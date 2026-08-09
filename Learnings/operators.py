@@ -159,4 +159,20 @@ def id(name ,id, college):
   print(f"My college id is like this {id}")
   print(f"My college name is {college}")
 id("Pawan Pokharel","HAS123GH","Kathmandu Model College")
-    
+
+print("lets do list now")
+
+fruits =  ["apple","Banana","oranges","lemons"]
+
+
+#print(fruits[0:2])
+#print(dir(fruits))
+#print(help(fruits))
+#print(len(fruits))
+#print("pawan" in fruits)
+
+#fruits[3] ="pinapple"
+fruits.append("MAGO")
+print(fruits)  #it is indexing
+#for fruit in fruits:
+#print(fruit)
