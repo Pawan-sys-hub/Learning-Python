@@ -19,3 +19,9 @@ if number / 2:
   print("even number")
 else:
   print("odd")
+
+even = [ n for n in numbers if n % 2 == 0]
+print(even)
+
+odd = [ o for o in numbers if o % 3 == 0]
+print(odd)
