@@ -13,3 +13,9 @@ print(f"the sum of number is -- {add}")
 
 average = add / 6 
 print(f"average of the sum of number is -- {average}")
+
+number = 2
+if number / 2:
+  print("even number")
+else:
+  print("odd")
