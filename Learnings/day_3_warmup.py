@@ -62,3 +62,4 @@ print (f"Average {averages}")
 print(f"highest number {highest_mark}")
 print(f"lowest nmber is {lowest_mark}")
 print(f"Marks above 80 is {above_80}")
+
