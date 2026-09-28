@@ -74,7 +74,7 @@ print("lets do while loops now")
 
 name = input("Enter your name:")
 while name =="":
-  name = input ("Enter your name:")
+  name = input("Enter your name:")
   print("Please Enter your name")
 print(f"Hello, {name}")
 

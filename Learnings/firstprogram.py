@@ -1,6 +1,6 @@
 print("hello world")
 
-#inputs and output of puthon
+#inputs and output of python
 
 Name = input("Enter your name:")
 
